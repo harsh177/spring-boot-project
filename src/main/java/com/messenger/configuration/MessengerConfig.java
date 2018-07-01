@@ -1,12 +1,14 @@
 package com.messenger.configuration;
 
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
 
 import com.messenger.dao.impl.MessagingDAOImpl;
 import com.messenger.dao.interfaces.IMessagingDAO;
+import com.messenger.filter.MyFilter;
 import com.messenger.service.impl.MessagingService;
 import com.messenger.service.interfaces.IMessagingService;
 
@@ -25,4 +27,15 @@ public class MessengerConfig {
 	public IMessagingDAO getMessageDAO() {
 		return new MessagingDAOImpl();
 	}
-}
+	
+	@Bean
+	public FilterRegistrationBean<MyFilter> myFilterBean() {
+	  final FilterRegistrationBean<MyFilter> filterRegBean = new FilterRegistrationBean<MyFilter>();
+	  filterRegBean.setFilter(new MyFilter());
+	  filterRegBean.addUrlPatterns("/*");
+	  filterRegBean.setEnabled(Boolean.TRUE);
+	  filterRegBean.setName("My Filter");
+	  filterRegBean.setAsyncSupported(Boolean.TRUE);
+	  return filterRegBean;
+	}
+} 
