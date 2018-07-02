@@ -1,4 +1,4 @@
-package com.messenger.exception;
+package com.messenger.entity;
 import java.util.Date;
 
 public class ErrorDetails {

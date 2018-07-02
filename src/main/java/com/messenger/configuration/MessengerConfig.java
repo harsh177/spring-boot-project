@@ -6,8 +6,6 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
 
-import com.messenger.dao.impl.MessagingDAOImpl;
-import com.messenger.dao.interfaces.IMessagingDAO;
 import com.messenger.filter.MyFilter;
 import com.messenger.service.impl.MessagingService;
 import com.messenger.service.interfaces.IMessagingService;
@@ -17,25 +15,20 @@ import com.messenger.service.interfaces.IMessagingService;
 public class MessengerConfig {
 
 	@Bean
-	@Qualifier("messageService") // Not mandatory. If not specified, it takes the method name i.e., "getMessageService" as qualifier name.
+	@Qualifier("messageService") // Not mandatory. If not specified, it takes the method name i.e.,
+									// "getMessageService" as qualifier name.
 	public IMessagingService getMessageService() {
 		return new MessagingService();
 	}
 
 	@Bean
-	@Qualifier("messageDAO")
-	public IMessagingDAO getMessageDAO() {
-		return new MessagingDAOImpl();
-	}
-	
-	@Bean
 	public FilterRegistrationBean<MyFilter> myFilterBean() {
-	  final FilterRegistrationBean<MyFilter> filterRegBean = new FilterRegistrationBean<MyFilter>();
-	  filterRegBean.setFilter(new MyFilter());
-	  filterRegBean.addUrlPatterns("/*");
-	  filterRegBean.setEnabled(Boolean.TRUE);
-	  filterRegBean.setName("My Filter");
-	  filterRegBean.setAsyncSupported(Boolean.TRUE);
-	  return filterRegBean;
+		final FilterRegistrationBean<MyFilter> filterRegBean = new FilterRegistrationBean<MyFilter>();
+		filterRegBean.setFilter(new MyFilter());
+		filterRegBean.addUrlPatterns("/*");
+		filterRegBean.setEnabled(Boolean.TRUE);
+		filterRegBean.setName("My Filter");
+		filterRegBean.setAsyncSupported(Boolean.TRUE);
+		return filterRegBean;
 	}
-} 
+}
