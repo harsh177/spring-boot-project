@@ -1,1 +1,4 @@
-2018-07-03 00:40:51 [http-nio-8080-exec-4] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Column 'created_at' cannot be null
+2018-07-08 16:06:45 [http-nio-8080-exec-2] ERROR org.ffmpeg - [mov,mp4,m4a,3gp,3g2,mj2 @ 1A7D6E20] stream 0, offset 0x11ec2: partial file
+2018-07-08 16:09:28 [http-nio-8080-exec-2] ERROR org.ffmpeg - [mov,mp4,m4a,3gp,3g2,mj2 @ 1A966E40] stream 0, offset 0x11ec2: partial file
+2018-07-08 16:12:15 [http-nio-8080-exec-1] ERROR org.ffmpeg - [mov,mp4,m4a,3gp,3g2,mj2 @ 1A336E40] stream 0, offset 0x11ec2: partial file
+2018-07-08 16:13:25 [http-nio-8080-exec-1] ERROR org.ffmpeg - [mov,mp4,m4a,3gp,3g2,mj2 @ 1A336E40] stream 0, offset 0x11ec2: partial file

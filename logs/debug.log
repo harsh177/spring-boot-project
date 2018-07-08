@@ -1,52 +1,98 @@
-2018-07-03 00:38:47 [restartedMain] INFO  com.messenger.MessengerApplication - Starting MessengerApplication on LAPTOP-OQFHP5GJ with PID 13256 (C:\Users\Harsh\Desktop\harsh-git\Assignment-Workspace\Messenger\bin\main started by Harsh in C:\Users\Harsh\Desktop\harsh-git\Assignment-Workspace\Messenger)
-2018-07-03 00:38:47 [restartedMain] DEBUG com.messenger.MessengerApplication - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
-2018-07-03 00:38:47 [restartedMain] INFO  com.messenger.MessengerApplication - No active profile set, falling back to default profiles: default
-2018-07-03 00:38:53 [localhost-startStop-1] DEBUG com.messenger.filter.MyFilter - init myfilter
-2018-07-03 00:38:53 [localhost-startStop-1] DEBUG com.messenger.filter.CORSFilter - Filter Registered
-2018-07-03 00:39:03 [restartedMain] INFO  com.messenger.MessengerApplication - Started MessengerApplication in 16.208 seconds (JVM running for 17.632)
-2018-07-03 00:39:03 [restartedMain] INFO  com.messenger.MessengerApplication - Message logged at logging level info
-2018-07-03 00:39:03 [restartedMain] DEBUG com.messenger.MessengerApplication - Message logged at logging level debug
-2018-07-03 00:39:03 [restartedMain] WARN  com.messenger.MessengerApplication - Message logged at logging level warn
-2018-07-03 00:39:03 [restartedMain] ERROR com.messenger.MessengerApplication - Message logged at logging level error
-2018-07-03 00:39:40 [http-nio-8080-exec-1] DEBUG com.messenger.filter.CORSFilter - Cors called
-2018-07-03 00:39:40 [http-nio-8080-exec-1] DEBUG com.messenger.filter.MyFilter - myfilter called0:0:0:0:0:0:0:1
-2018-07-03 00:39:46 [http-nio-8080-exec-2] DEBUG com.messenger.filter.CORSFilter - Cors called
-2018-07-03 00:39:46 [http-nio-8080-exec-2] DEBUG com.messenger.filter.MyFilter - myfilter called0:0:0:0:0:0:0:1
-2018-07-03 00:40:50 [http-nio-8080-exec-4] DEBUG com.messenger.filter.CORSFilter - Cors called
-2018-07-03 00:40:50 [http-nio-8080-exec-4] DEBUG com.messenger.filter.MyFilter - myfilter called0:0:0:0:0:0:0:1
-2018-07-03 00:43:53 [localhost-startStop-2] DEBUG com.messenger.filter.MyFilter - Destroy myfilter
-2018-07-03 00:44:08 [restartedMain] INFO  com.messenger.MessengerApplication - Starting MessengerApplication on LAPTOP-OQFHP5GJ with PID 13256 (C:\Users\Harsh\Desktop\harsh-git\Assignment-Workspace\Messenger\bin\main started by Harsh in C:\Users\Harsh\Desktop\harsh-git\Assignment-Workspace\Messenger)
-2018-07-03 00:44:08 [restartedMain] DEBUG com.messenger.MessengerApplication - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
-2018-07-03 00:44:08 [restartedMain] INFO  com.messenger.MessengerApplication - No active profile set, falling back to default profiles: default
-2018-07-03 00:44:09 [localhost-startStop-1] DEBUG com.messenger.filter.MyFilter - init myfilter
-2018-07-03 00:44:09 [localhost-startStop-1] DEBUG com.messenger.filter.CORSFilter - Filter Registered
-2018-07-03 00:44:10 [restartedMain] INFO  com.messenger.MessengerApplication - Started MessengerApplication in 2.612 seconds (JVM running for 325.081)
-2018-07-03 00:44:10 [restartedMain] INFO  com.messenger.MessengerApplication - Message logged at logging level info
-2018-07-03 00:44:10 [restartedMain] DEBUG com.messenger.MessengerApplication - Message logged at logging level debug
-2018-07-03 00:44:10 [restartedMain] WARN  com.messenger.MessengerApplication - Message logged at logging level warn
-2018-07-03 00:44:10 [restartedMain] ERROR com.messenger.MessengerApplication - Message logged at logging level error
-2018-07-03 00:44:19 [http-nio-8080-exec-1] DEBUG com.messenger.filter.CORSFilter - Cors called
-2018-07-03 00:44:19 [http-nio-8080-exec-1] DEBUG com.messenger.filter.MyFilter - myfilter called0:0:0:0:0:0:0:1
-2018-07-03 00:44:30 [http-nio-8080-exec-3] DEBUG com.messenger.filter.CORSFilter - Cors called
-2018-07-03 00:44:30 [http-nio-8080-exec-3] DEBUG com.messenger.filter.MyFilter - myfilter called0:0:0:0:0:0:0:1
-2018-07-03 00:44:46 [http-nio-8080-exec-5] DEBUG com.messenger.filter.CORSFilter - Cors called
-2018-07-03 00:44:46 [http-nio-8080-exec-5] DEBUG com.messenger.filter.MyFilter - myfilter called0:0:0:0:0:0:0:1
-2018-07-03 00:44:50 [http-nio-8080-exec-6] DEBUG com.messenger.filter.CORSFilter - Cors called
-2018-07-03 00:44:50 [http-nio-8080-exec-6] DEBUG com.messenger.filter.MyFilter - myfilter called0:0:0:0:0:0:0:1
-2018-07-03 00:46:36 [localhost-startStop-2] DEBUG com.messenger.filter.MyFilter - Destroy myfilter
-2018-07-03 00:57:06 [main] INFO  c.m.i.MessageControllerTest - Starting MessageControllerTest on LAPTOP-OQFHP5GJ with PID 11232 (started by Harsh in C:\Users\Harsh\Desktop\harsh-git\Assignment-Workspace\Messenger)
-2018-07-03 00:57:06 [main] DEBUG c.m.i.MessageControllerTest - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
-2018-07-03 00:57:06 [main] INFO  c.m.i.MessageControllerTest - The following profiles are active: prod
-2018-07-03 00:57:17 [main] INFO  c.m.i.MessageControllerTest - Started MessageControllerTest in 12.475 seconds (JVM running for 14.844)
-2018-07-03 00:57:18 [main] DEBUG com.messenger.filter.CORSFilter - Cors called
-2018-07-03 00:57:18 [main] DEBUG com.messenger.filter.MyFilter - myfilter called127.0.0.1
-2018-07-03 00:57:18 [main] DEBUG com.messenger.filter.CORSFilter - Cors called
-2018-07-03 00:57:18 [main] DEBUG com.messenger.filter.MyFilter - myfilter called127.0.0.1
-2018-07-03 00:59:19 [main] INFO  c.m.i.MessageControllerTest - Starting MessageControllerTest on LAPTOP-OQFHP5GJ with PID 13780 (started by Harsh in C:\Users\Harsh\Desktop\harsh-git\Assignment-Workspace\Messenger)
-2018-07-03 00:59:19 [main] DEBUG c.m.i.MessageControllerTest - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
-2018-07-03 00:59:19 [main] INFO  c.m.i.MessageControllerTest - The following profiles are active: prod
-2018-07-03 00:59:26 [main] INFO  c.m.i.MessageControllerTest - Started MessageControllerTest in 7.223 seconds (JVM running for 8.544)
-2018-07-03 00:59:26 [main] DEBUG com.messenger.filter.CORSFilter - Cors called
-2018-07-03 00:59:26 [main] DEBUG com.messenger.filter.MyFilter - myfilter called127.0.0.1
-2018-07-03 00:59:26 [main] DEBUG com.messenger.filter.CORSFilter - Cors called
-2018-07-03 00:59:26 [main] DEBUG com.messenger.filter.MyFilter - myfilter called127.0.0.1
+2018-07-08 15:33:39 [restartedMain] INFO  com.messenger.MessengerApplication - Starting MessengerApplication on LAPTOP-OQFHP5GJ with PID 20644 (C:\Users\Harsh\Desktop\harsh-git\Assignment-Workspace\Messenger\bin\main started by Harsh in C:\Users\Harsh\Desktop\harsh-git\Assignment-Workspace\Messenger)
+2018-07-08 15:33:39 [restartedMain] DEBUG com.messenger.MessengerApplication - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-07-08 15:33:39 [restartedMain] INFO  com.messenger.MessengerApplication - No active profile set, falling back to default profiles: default
+2018-07-08 15:33:44 [localhost-startStop-1] DEBUG com.messenger.filter.MyFilter - init myfilter
+2018-07-08 15:33:44 [localhost-startStop-1] DEBUG com.messenger.filter.CORSFilter - Filter Registered
+2018-07-08 15:33:58 [restartedMain] INFO  com.messenger.MessengerApplication - Started MessengerApplication in 21.124 seconds (JVM running for 23.703)
+2018-07-08 15:33:58 [restartedMain] INFO  com.messenger.MessengerApplication - Message logged at logging level info
+2018-07-08 15:33:58 [restartedMain] DEBUG com.messenger.MessengerApplication - Message logged at logging level debug
+2018-07-08 15:33:58 [restartedMain] WARN  com.messenger.MessengerApplication - Message logged at logging level warn
+2018-07-08 15:33:58 [restartedMain] ERROR com.messenger.MessengerApplication - Message logged at logging level error
+2018-07-08 15:35:30 [http-nio-8080-exec-2] DEBUG com.messenger.filter.CORSFilter - Cors called
+2018-07-08 15:35:30 [http-nio-8080-exec-2] DEBUG com.messenger.filter.MyFilter - myfilter called0:0:0:0:0:0:0:1
+2018-07-08 15:36:16 [http-nio-8080-exec-1] DEBUG com.messenger.filter.CORSFilter - Cors called
+2018-07-08 15:36:16 [http-nio-8080-exec-1] DEBUG com.messenger.filter.MyFilter - myfilter called0:0:0:0:0:0:0:1
+2018-07-08 15:38:47 [http-nio-8080-exec-3] DEBUG com.messenger.filter.CORSFilter - Cors called
+2018-07-08 15:38:47 [http-nio-8080-exec-3] DEBUG com.messenger.filter.MyFilter - myfilter called0:0:0:0:0:0:0:1
+2018-07-08 15:40:42 [localhost-startStop-2] DEBUG com.messenger.filter.MyFilter - Destroy myfilter
+2018-07-08 15:40:43 [restartedMain] INFO  com.messenger.MessengerApplication - Starting MessengerApplication on LAPTOP-OQFHP5GJ with PID 20644 (C:\Users\Harsh\Desktop\harsh-git\Assignment-Workspace\Messenger\bin\main started by Harsh in C:\Users\Harsh\Desktop\harsh-git\Assignment-Workspace\Messenger)
+2018-07-08 15:40:43 [restartedMain] DEBUG com.messenger.MessengerApplication - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-07-08 15:40:43 [restartedMain] INFO  com.messenger.MessengerApplication - No active profile set, falling back to default profiles: default
+2018-07-08 15:40:44 [localhost-startStop-1] DEBUG com.messenger.filter.MyFilter - init myfilter
+2018-07-08 15:40:44 [localhost-startStop-1] DEBUG com.messenger.filter.CORSFilter - Filter Registered
+2018-07-08 15:40:46 [restartedMain] INFO  com.messenger.MessengerApplication - Started MessengerApplication in 3.126 seconds (JVM running for 431.74)
+2018-07-08 15:40:46 [restartedMain] INFO  com.messenger.MessengerApplication - Message logged at logging level info
+2018-07-08 15:40:46 [restartedMain] DEBUG com.messenger.MessengerApplication - Message logged at logging level debug
+2018-07-08 15:40:46 [restartedMain] WARN  com.messenger.MessengerApplication - Message logged at logging level warn
+2018-07-08 15:40:46 [restartedMain] ERROR com.messenger.MessengerApplication - Message logged at logging level error
+2018-07-08 15:40:51 [http-nio-8080-exec-1] DEBUG com.messenger.filter.CORSFilter - Cors called
+2018-07-08 15:40:51 [http-nio-8080-exec-1] DEBUG com.messenger.filter.MyFilter - myfilter called0:0:0:0:0:0:0:1
+2018-07-08 15:42:07 [http-nio-8080-exec-3] DEBUG com.messenger.filter.CORSFilter - Cors called
+2018-07-08 15:42:07 [http-nio-8080-exec-3] DEBUG com.messenger.filter.MyFilter - myfilter called0:0:0:0:0:0:0:1
+2018-07-08 15:43:15 [http-nio-8080-exec-6] DEBUG com.messenger.filter.CORSFilter - Cors called
+2018-07-08 15:43:15 [http-nio-8080-exec-6] DEBUG com.messenger.filter.MyFilter - myfilter called0:0:0:0:0:0:0:1
+2018-07-08 15:44:13 [http-nio-8080-exec-8] DEBUG com.messenger.filter.CORSFilter - Cors called
+2018-07-08 15:44:13 [http-nio-8080-exec-8] DEBUG com.messenger.filter.MyFilter - myfilter called0:0:0:0:0:0:0:1
+2018-07-08 16:05:34 [restartedMain] INFO  com.messenger.MessengerApplication - Starting MessengerApplication on LAPTOP-OQFHP5GJ with PID 17784 (C:\Users\Harsh\Desktop\harsh-git\Assignment-Workspace\Messenger\bin\main started by Harsh in C:\Users\Harsh\Desktop\harsh-git\Assignment-Workspace\Messenger)
+2018-07-08 16:05:34 [restartedMain] DEBUG com.messenger.MessengerApplication - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-07-08 16:05:34 [restartedMain] INFO  com.messenger.MessengerApplication - No active profile set, falling back to default profiles: default
+2018-07-08 16:05:37 [localhost-startStop-1] DEBUG com.messenger.filter.MyFilter - init myfilter
+2018-07-08 16:05:37 [localhost-startStop-1] DEBUG com.messenger.filter.CORSFilter - Filter Registered
+2018-07-08 16:05:43 [restartedMain] INFO  com.messenger.MessengerApplication - Started MessengerApplication in 9.947 seconds (JVM running for 11.225)
+2018-07-08 16:05:43 [restartedMain] INFO  com.messenger.MessengerApplication - Message logged at logging level info
+2018-07-08 16:05:43 [restartedMain] DEBUG com.messenger.MessengerApplication - Message logged at logging level debug
+2018-07-08 16:05:43 [restartedMain] WARN  com.messenger.MessengerApplication - Message logged at logging level warn
+2018-07-08 16:05:43 [restartedMain] ERROR com.messenger.MessengerApplication - Message logged at logging level error
+2018-07-08 16:06:38 [http-nio-8080-exec-2] DEBUG com.messenger.filter.CORSFilter - Cors called
+2018-07-08 16:06:38 [http-nio-8080-exec-2] DEBUG com.messenger.filter.MyFilter - myfilter called0:0:0:0:0:0:0:1
+2018-07-08 16:08:26 [restartedMain] INFO  com.messenger.MessengerApplication - Starting MessengerApplication on LAPTOP-OQFHP5GJ with PID 11196 (C:\Users\Harsh\Desktop\harsh-git\Assignment-Workspace\Messenger\bin\main started by Harsh in C:\Users\Harsh\Desktop\harsh-git\Assignment-Workspace\Messenger)
+2018-07-08 16:08:26 [restartedMain] DEBUG com.messenger.MessengerApplication - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-07-08 16:08:26 [restartedMain] INFO  com.messenger.MessengerApplication - No active profile set, falling back to default profiles: default
+2018-07-08 16:08:31 [localhost-startStop-1] DEBUG com.messenger.filter.MyFilter - init myfilter
+2018-07-08 16:08:31 [localhost-startStop-1] DEBUG com.messenger.filter.CORSFilter - Filter Registered
+2018-07-08 16:08:36 [restartedMain] INFO  com.messenger.MessengerApplication - Started MessengerApplication in 11.006 seconds (JVM running for 15.203)
+2018-07-08 16:08:36 [restartedMain] INFO  com.messenger.MessengerApplication - Message logged at logging level info
+2018-07-08 16:08:36 [restartedMain] DEBUG com.messenger.MessengerApplication - Message logged at logging level debug
+2018-07-08 16:08:36 [restartedMain] WARN  com.messenger.MessengerApplication - Message logged at logging level warn
+2018-07-08 16:08:36 [restartedMain] ERROR com.messenger.MessengerApplication - Message logged at logging level error
+2018-07-08 16:08:51 [http-nio-8080-exec-2] DEBUG com.messenger.filter.CORSFilter - Cors called
+2018-07-08 16:08:51 [http-nio-8080-exec-2] DEBUG com.messenger.filter.MyFilter - myfilter called0:0:0:0:0:0:0:1
+2018-07-08 16:10:29 [restartedMain] INFO  com.messenger.MessengerApplication - Starting MessengerApplication on LAPTOP-OQFHP5GJ with PID 11688 (C:\Users\Harsh\Desktop\harsh-git\Assignment-Workspace\Messenger\bin\main started by Harsh in C:\Users\Harsh\Desktop\harsh-git\Assignment-Workspace\Messenger)
+2018-07-08 16:10:29 [restartedMain] DEBUG com.messenger.MessengerApplication - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-07-08 16:10:29 [restartedMain] INFO  com.messenger.MessengerApplication - No active profile set, falling back to default profiles: default
+2018-07-08 16:10:32 [localhost-startStop-1] DEBUG com.messenger.filter.MyFilter - init myfilter
+2018-07-08 16:10:32 [localhost-startStop-1] DEBUG com.messenger.filter.CORSFilter - Filter Registered
+2018-07-08 16:10:36 [restartedMain] INFO  com.messenger.MessengerApplication - Started MessengerApplication in 7.984 seconds (JVM running for 9.023)
+2018-07-08 16:10:36 [restartedMain] INFO  com.messenger.MessengerApplication - Message logged at logging level info
+2018-07-08 16:10:36 [restartedMain] DEBUG com.messenger.MessengerApplication - Message logged at logging level debug
+2018-07-08 16:10:36 [restartedMain] WARN  com.messenger.MessengerApplication - Message logged at logging level warn
+2018-07-08 16:10:36 [restartedMain] ERROR com.messenger.MessengerApplication - Message logged at logging level error
+2018-07-08 16:10:50 [http-nio-8080-exec-1] DEBUG com.messenger.filter.CORSFilter - Cors called
+2018-07-08 16:10:50 [http-nio-8080-exec-1] DEBUG com.messenger.filter.MyFilter - myfilter called0:0:0:0:0:0:0:1
+2018-07-08 16:12:51 [localhost-startStop-2] DEBUG com.messenger.filter.MyFilter - Destroy myfilter
+2018-07-08 16:12:51 [restartedMain] INFO  com.messenger.MessengerApplication - Starting MessengerApplication on LAPTOP-OQFHP5GJ with PID 11688 (C:\Users\Harsh\Desktop\harsh-git\Assignment-Workspace\Messenger\bin\main started by Harsh in C:\Users\Harsh\Desktop\harsh-git\Assignment-Workspace\Messenger)
+2018-07-08 16:12:51 [restartedMain] DEBUG com.messenger.MessengerApplication - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-07-08 16:12:51 [restartedMain] INFO  com.messenger.MessengerApplication - No active profile set, falling back to default profiles: default
+2018-07-08 16:12:52 [localhost-startStop-1] DEBUG com.messenger.filter.MyFilter - init myfilter
+2018-07-08 16:12:52 [localhost-startStop-1] DEBUG com.messenger.filter.CORSFilter - Filter Registered
+2018-07-08 16:12:53 [restartedMain] INFO  com.messenger.MessengerApplication - Started MessengerApplication in 2.129 seconds (JVM running for 145.619)
+2018-07-08 16:12:53 [restartedMain] INFO  com.messenger.MessengerApplication - Message logged at logging level info
+2018-07-08 16:12:53 [restartedMain] DEBUG com.messenger.MessengerApplication - Message logged at logging level debug
+2018-07-08 16:12:53 [restartedMain] WARN  com.messenger.MessengerApplication - Message logged at logging level warn
+2018-07-08 16:12:53 [restartedMain] ERROR com.messenger.MessengerApplication - Message logged at logging level error
+2018-07-08 16:12:58 [http-nio-8080-exec-1] DEBUG com.messenger.filter.CORSFilter - Cors called
+2018-07-08 16:12:58 [http-nio-8080-exec-1] DEBUG com.messenger.filter.MyFilter - myfilter called0:0:0:0:0:0:0:1
+2018-07-08 16:14:40 [restartedMain] INFO  com.messenger.MessengerApplication - Starting MessengerApplication on LAPTOP-OQFHP5GJ with PID 22180 (C:\Users\Harsh\Desktop\harsh-git\Assignment-Workspace\Messenger\bin\main started by Harsh in C:\Users\Harsh\Desktop\harsh-git\Assignment-Workspace\Messenger)
+2018-07-08 16:14:40 [restartedMain] DEBUG com.messenger.MessengerApplication - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-07-08 16:14:40 [restartedMain] INFO  com.messenger.MessengerApplication - No active profile set, falling back to default profiles: default
+2018-07-08 16:14:43 [localhost-startStop-1] DEBUG com.messenger.filter.MyFilter - init myfilter
+2018-07-08 16:14:43 [localhost-startStop-1] DEBUG com.messenger.filter.CORSFilter - Filter Registered
+2018-07-08 16:14:46 [restartedMain] INFO  com.messenger.MessengerApplication - Started MessengerApplication in 6.114 seconds (JVM running for 6.775)
+2018-07-08 16:14:46 [restartedMain] INFO  com.messenger.MessengerApplication - Message logged at logging level info
+2018-07-08 16:14:46 [restartedMain] DEBUG com.messenger.MessengerApplication - Message logged at logging level debug
+2018-07-08 16:14:46 [restartedMain] WARN  com.messenger.MessengerApplication - Message logged at logging level warn
+2018-07-08 16:14:46 [restartedMain] ERROR com.messenger.MessengerApplication - Message logged at logging level error
+2018-07-08 16:15:00 [http-nio-8080-exec-1] DEBUG com.messenger.filter.CORSFilter - Cors called
+2018-07-08 16:15:00 [http-nio-8080-exec-1] DEBUG com.messenger.filter.MyFilter - myfilter called0:0:0:0:0:0:0:1
+2018-07-08 16:44:46 [http-nio-8080-exec-3] DEBUG com.messenger.filter.CORSFilter - Cors called
+2018-07-08 16:44:46 [http-nio-8080-exec-3] DEBUG com.messenger.filter.MyFilter - myfilter called0:0:0:0:0:0:0:1
